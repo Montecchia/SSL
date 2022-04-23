@@ -6,5 +6,5 @@ int main(){
     scanf("%s", nombre);
     printf("Ingrese edad: ");
     scanf("%d", &edad);
-    printf("La edad de %s es %d", nombre, edad);
+    printf("La edad de %s es %d. \n ¡Hola %s!", nombre, edad, nombre);
 }
